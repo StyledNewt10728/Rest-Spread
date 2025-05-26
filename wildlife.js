@@ -1,8 +1,8 @@
 /* Task 1: Track Animal Sightings */
 // TODO: Write a function with rest parameters to print sightings of different animals within the sanctuary. This function should accept an arbitrary number of animal names.
-const sightings = function (...animals) {
+function sightings(...animals) {
   return animals;
-};
+}
 
 /* Task 2: Merge Habitat Areas */
 const forestHabitats = ["Forest A", "Forest B"];
